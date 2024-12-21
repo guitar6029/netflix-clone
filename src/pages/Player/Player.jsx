@@ -1,4 +1,4 @@
-import styles from './Player.module.css'
+import styles from './Player.module.scss'
 
 function Player() {
     return (

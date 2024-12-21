@@ -1,4 +1,4 @@
-import styles from './Cards.module.css'
+import styles from './Cards.module.scss'
 
 function Cards() {
     return (
