@@ -1,6 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './styles.scss'
+import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS globally
 import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
