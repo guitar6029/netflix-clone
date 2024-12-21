@@ -10,13 +10,58 @@
 //min app width is 600px
 html{
     min-width: 600px;
+    background-color: $primary-bg-color;
 }
 
 body{
     background: $primary-bg-color;
     color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
 }
 
 .cursor-pointer{
     cursor: pointer;
 }
+
+
+$scrollbar-color: rgb(253, 245, 245);
+$scrollbar-color-hover: rgb(255, 255, 255);
+
+/* Global scrollbar styles */
+::-webkit-scrollbar {
+    width: 8px;
+    /* Width of the scrollbar */
+    height: 8px;
+    /* Height of the scrollbar for horizontal scrolling */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: $scrollbar-color;
+    /* Color of the scrollbar thumb */
+    border-radius: 4px;
+    /* Rounded corners for a modern look */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: $scrollbar-color-hover;
+    /* Darker thumb when hovered */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: rgba(200, 200, 200, 0.2);
+    /* Background color of the scrollbar track */
+    border-radius: 4px;
+    /* Rounded corners */
+  }
+  
+  /* Add transition for smooth hover effect */
+  ::-webkit-scrollbar-thumb {
+    transition: background 0.3s ease;
+  }
+  
+  

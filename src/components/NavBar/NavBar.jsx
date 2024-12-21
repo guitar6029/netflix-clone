@@ -1,7 +1,8 @@
-import styles from './NavBar.module.scss'
-import ProfileIcon from '../Icons/ProfileIcon'
 import BellIcon from '../Icons/BellIcon'
+import ChevronDownIcon from '../Icons/ChevronDownIcon'
+import ProfileIcon from '../Icons/ProfileIcon'
 import SearchIcon from '../Icons/SearchIcon'
+import styles from './NavBar.module.scss'
 
 function NavBar() {
     return (
@@ -20,18 +21,13 @@ function NavBar() {
                 </ul>
             </div>
 
-            {/* Search */}
             <div className="d-flex align-items-center gap-2">
-                
                 <input className='form-control' type="text" placeholder="Search" />
                 <SearchIcon className={styles.icon} />
-                
-                <ProfileIcon className={styles.icon} />
-
                 <BellIcon className={styles.icon} />
-
+                <ProfileIcon className={styles.icon} />
+                <ChevronDownIcon className={styles.icon} />
             </div>
-
         </div>
     )
 }
