@@ -2,7 +2,9 @@ import styles from './NavBar.module.css'
 
 function NavBar() {
     return (
-        <div>NavBar</div>
+        <div className={styles.navbar}>
+            NavBar
+        </div>
     )
 }
 
