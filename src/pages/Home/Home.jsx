@@ -1,8 +1,11 @@
 import styles from './Home.module.scss'
+import NavBar from '../../components/NavBar/NavBar'
 
 function Home() {
     return (
-        <div>Home</div>
+        <>
+            <NavBar />
+        </>
     )
 }
 

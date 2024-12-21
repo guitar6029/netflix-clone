@@ -1,10 +1,22 @@
+@use './styles/variables' as *;
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
+//min app width is 600px
+html{
+    min-width: 600px;
+}
+
 body{
-    background: #0f0f0f;
+    background: $primary-bg-color;
     color: #fff;
+}
+
+.cursor-pointer{
+    cursor: pointer;
 }
